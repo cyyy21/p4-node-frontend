@@ -1,0 +1,164 @@
+
+body {
+    background-color: #f7f7f7;
+    /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 24px;
+    color: #151414;
+  
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height:1em ;
+    
+  }
+  
+.box{
+    border: 1px solid #21a721;
+    background-color: #e3e3e3;
+    border-radius: 25px;
+    padding-top:.5em;
+    height: max-content;
+    
+text-align: center;
+align-items: center;
+    width: 40vw;
+    margin: 15px;
+}
+.box:hover {
+    margin-top: 2px;
+   box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    transition: 1s;
+    
+}
+
+#containerBox {
+    margin: 20px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+}
+
+#image {
+    margin: .2.1em;
+    width: 60%;
+    height: 320px;
+    border-radius: 20px;
+}
+.detailButton {
+    text-transform: uppercase;
+    bottom: 35px;
+    position: relative;
+    bottom: 0;
+    height: 10vh;
+    right: 5px;
+    width: 100%;
+    color: white;
+    background-color: #64c764;
+    border-radius: 10px;
+}
+.detailButton:hover{
+    color: white;
+    background-color:#21a721;
+    transition: 1.5s;
+    cursor: pointer;
+   
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #64c764;
+    color: white;
+   
+    
+}
+ul {
+    display: flex;
+   gap: 20px;
+   margin: 50px;
+   list-style: none;
+   font-size: 20px;
+   
+}
+#link {
+    color: white;
+    text-decoration: none;
+}
+#link:hover {
+    opacity:0.5;
+}
+#logo{
+    font-size: 50px;
+    margin: 20px;
+   font-weight: lighter;
+}
+.welcome {
+    margin: 18px ;
+font-size:20px;
+text-align:center;
+word-spacing: 2px;
+
+}
+
+.description {
+    padding:5%;
+    word-spacing: 1.5px;
+    font-size: 16px;
+   
+} 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+   margin-top: -45px;
+  }
+  
+  #edit {
+    color: #fff;
+    width: 50%;
+    height: 40px;
+    background-color: #64c764;
+    border-radius:50px;
+    font-size: 20px;
+  }
+  #edit:hover {
+    cursor: pointer;
+  font-size: 35px;
+  transition: 1s;
+  }
+  #deletePlace {
+    color: #fff;
+    width:20%;
+    height: 50px;
+    margin: 5px;
+    background-color: #fb1515;
+    border-radius: 45px;
+  }
+  #deletePlace:hover {
+    cursor: pointer;
+    transition: .5s;
+  font-size: 35px;
+    
+  }
+  #add {
+   margin: 10px;
+   height:90px;
+   width: 100%;
+   color: #fff;
+   background-color: #64c764;
+   cursor: pointer;
+   border-radius: 123px;
+   font-size: 30px;
+   position: relative;
+   left: 580px;
+  }
+  #add:hover {
+   font-size: 60px;
+    transition: .5s;
+  }

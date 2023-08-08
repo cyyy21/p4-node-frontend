@@ -1,0 +1,52 @@
+#containerForm {
+display: grid;
+place-items: center;
+box-shadow:  5px 5px 5px #bab7b7;
+background-color: #ebebeb;
+height: 90vh;
+width: 50%;
+
+
+}
+#bodyEdit {
+    background-color: #f7f7f7;
+ margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  text-align: center;
+ 
+}
+#description {
+    width: 200%;
+    height: 30vh;
+    font-size: 18px;
+    padding: 5px;
+    left: -180px;
+    position: relative;
+    background-color: #f1f1f1;
+}
+#placeInput ,#imageFile{
+    background-color: #f1f1f1;
+}
+#placeInput:hover , #imageFile:hover
+{
+    background-color: #64c764;
+}
+
+#buttonSubmit {
+    width: 50%;
+    height: 50px;
+    background-color:  #64c764;
+    color: white;
+    text-transform: uppercase;
+}
+#buttonSubmit:hover{
+    cursor: pointer;
+    position: relative;
+    top: -4px;
+    transition: .5s;
+    border-radius: 45px;
+    box-shadow: 2px 2px 2px #0b0b0b;
+    font-size: 20px;
+}
