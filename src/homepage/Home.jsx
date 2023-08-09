@@ -52,7 +52,7 @@ function Home() {
 
 const deleteList = async (place) => {
     try{
-        const response = await fetch(`https://galana-backend-8prv.onrender.com//delete/${place}`, {
+        const response = await fetch(`https://galana-backend-8prv.onrender.com/delete/${place}`, {
             method: 'PUT',//method put for soft deletion.
             headers: {
                 "Content-Type": "application/json",
