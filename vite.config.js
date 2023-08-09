@@ -6,7 +6,6 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   resolve: {
@@ -15,10 +14,9 @@ export default defineConfig({
     },
   },
   build: {
+    outDir: 'dist', // Adjust this to match the desired output directory
     rollupOptions: {
-      external: [
-        'react-icons/fa', // Add any other external modules here
-      ],
+      external: ['react-icons/fa'], // Add any other external modules here
     },
   },
 });
