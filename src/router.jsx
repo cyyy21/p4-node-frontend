@@ -9,7 +9,7 @@ import Add from './Add/Add';
 const router = createBrowserRouter([
   // Add routes here
 {
-    path:'',
+    path:'/',
     element:<Home/>,
 },
 
@@ -21,10 +21,10 @@ element:<SignUp/>,
   path:'/login',
   element:<Login/>
 },
-{
-path:"/signup/''",
-element:<Home/>
-},
+// {
+// path:"/signup/''",
+// element:<Home/>
+// },
 {
   path:'/edit/:id',
   element:<Edit/>
