@@ -16,8 +16,5 @@ export default defineConfig({
   },
   build: {
     outDir: 'build', // Output built files to the "build" directory
-    // rollupOptions: {
-    //   external: ['react-icons/fa'], // Add other external modules if needed
-    // },
   },
 })
