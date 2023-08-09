@@ -14,4 +14,17 @@ export default defineConfig({
       '@': resolve(__dirname, './src'),
     },
   },
+  build: {
+    rollupOptions: {
+      external: [
+        'react-icons/fa', // Add any other external modules here
+      ],
+    },
+  },
 });
+
+// vite.config.js
+
+ 
+
+
