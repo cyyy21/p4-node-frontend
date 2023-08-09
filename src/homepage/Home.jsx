@@ -3,7 +3,7 @@
 import { Link } from "react-router-dom";
 import './home.css';
 import { useState, useEffect } from "react";
-import { FaBeer} from 'react-icons/fa';
+import {FaBeer} from 'react-icons/fa';
 import {FaEdit} from 'react-icons/fa'
 import {FaPlus} from 'react-icons/fa'
 
