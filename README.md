@@ -1,5 +1,5 @@
 #Galana App
-The Galana App is a user-friendly application designed to help you add travel information. With this app, you can add, edit, and delete places to blog about your hotels or places.
+The Galana App is designed to help you add travel information. With this app, you can add, edit, and delete places to blog about your hotels or places.
 
 #Description
 The Galana App is a web application that allows users to manage travel information. It provides functionalities to add new places, edit existing places, and delete places from the blog.
